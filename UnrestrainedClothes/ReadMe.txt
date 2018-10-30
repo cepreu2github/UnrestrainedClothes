@@ -32,3 +32,6 @@ Version 2:
 	[*]Optional dodge  bonus (can be enabled in .ini)
 	[*]More customization options (by requests in comments)
 [/list]
+
+[h1][b]WELCOME CONTRIBUTIONS[/b][/h1]
+https://github.com/cepreu2github/UnrestrainedClothes
