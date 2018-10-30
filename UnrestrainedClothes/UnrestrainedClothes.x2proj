@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>c1751f2f-0594-46be-9b48-297a289fae60</Guid>
+    <Name>Unrestrained clothes</Name>
+    <Description>This is unrestrained clothes.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>ExampleWeapon</AssemblyName>
+    <RootNamespace>ExampleWeapon</RootNamespace>
+    <ProjectGuid>{3f350978-33e7-493a-993b-92c1b54bf591}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Config\XComContent.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Config\XComUnrestrainedClothes.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\WalkerServosMod.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\WotCWalkerServos_ModShaderCache.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\Translations\XComGame.rus">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\XComGame.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModPreview.jpg" />
+    <Content Include="ReadMe.txt" />
+    <Content Include="Src\UnrestrainedClothes\Classes\X2Ability_UnrestrainedClothes.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UnrestrainedClothes\Classes\X2Item_UnrestrainedClothes.uc" />
+    <Content Include="Src\UnrestrainedClothes\Classes\X2DownloadableContentInfo_UnrestrainedClothes.uc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content" />
+    <Folder Include="Localization" />
+    <Folder Include="Localization\Translations" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\UnrestrainedClothes" />
+    <Folder Include="Src\UnrestrainedClothes\Classes" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
