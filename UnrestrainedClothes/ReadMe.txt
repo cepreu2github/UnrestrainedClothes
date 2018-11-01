@@ -6,7 +6,8 @@ present at picture) Firaxis calls Kevlar Armor? If you want to play with those
 customizations, but don't want to throw away realism, this is mod for you.
 It adds new armor called "Unrestrained Clothes" to which such customizations can be 
 applied. From its name obvious that actually it is not armor. It just convenient
-clothes. So it provides debuff to HP indicating that there no protection, but instead
+clothes. So it provides debuff to Dodge (better chance to crit wearer 
+of this armor) indicating that there no protection, but instead
 provides defense, mobility bonus and ability to climb buildings without a ladder.
 It means that this clothes does not restrain movement, so wearer can realize all
 his acrobatic potential.
@@ -25,6 +26,10 @@ I used the following mods to learn how to make my work:
 [/list]
 
 [h1][b]CHANGELOG[/b][/h1]
+Version 3:
+[list]
+    [*]Replaced HP debuff with Dodge debuff to avoid injured after mission bug.
+[/list]
 Version 2:
 [list]
     [*]Jump can be disabled in .ini
